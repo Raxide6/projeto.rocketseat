@@ -24,11 +24,12 @@ body {
     padding: 24px;
     background-color: #f0e8c2;
     border-radius: 28px;
-    margin: 50px auto;
+    margin: 48px auto 28px;
+    
    
 }
 img {
-    border-radius: 16px;
+    border-radius: 16px
    
 }
 
@@ -38,6 +39,7 @@ main {
 
 section + section {
     margin-top: 24px;
+    line-height: -50%;
 }
 
 #about p + p {
@@ -57,9 +59,15 @@ h2 {
 h1, h2{
     color: #291b1a;
     margin-bottom: 4px;
-    line-height: 90%;
+    line-height: 120%;
 }
 
 ul {
     padding-left: 24px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+
 }
